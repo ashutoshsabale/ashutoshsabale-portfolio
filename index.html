@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!--------------------- unioncs------------------------ -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!--------------------- css------------------------ -->
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <!--------------------- FAVICON------------------------ -->
+    <link
+      rel="shortcut icon"
+      href="./src/photos/alpha.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body >
+    <div class="container">
+      <!-- --------------- HEADER SECTION  ---------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <div class="nav-name">
+            <p>Alpha</p>
+            <span>.</span>
+          </div>
+        </div>
+
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <a href="./src/resume/Ashutosh's Resume.pdf" download>
+            <button class="btn">
+              Download CV <i class="uil uil-file-alt"></i>
+            </button>
+          </a>
+        </div>
+        <div class="nav-menu-btn" onclick="myMenuFunction()">
+          <i class="uil uil-bars"></i>
+        </div>
+      </nav>
+
+      <!-- --------------- MAIN SECTION  ---------------- -->
+      <main class="wrapper">
+        <!-- --------------- FEATURED BOX  ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Ashutosh Sabale</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedText">Designer</span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Experienced frontend developer with a passion for creating
+                visually stunning and user-friendly websites.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <a href="mailto:ashutoshsabale191@gmail.com" style="text-decoration: none;">
+                <button class="btn blue-btn">Hire ME</button>
+              </a>
+              <a href="./src/resume/Ashutosh's Resume.pdf" download>
+                <button class="btn">
+                  Download ME <i class="uil uil-file-alt"></i>
+                </button>
+              </a>
+            </div>
+            <div class="social_icons">
+              <a href="https://www.instagram.com/aashutoshsabale/" target="_blank"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+              <a href="https://www.linkedin.com/in/ashutosh-sabale-744981166/" target="_blank"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+              <a href="https://www.facebook.com/ashutosh.sable.9/" target="_blank"><div class="icon"><i class="uil uil-facebook"></i></div></a>
+              <a href="https://github.com/ashutoshsabale" target="_blank"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+            </div>
+          </div>
+
+          <div class="featured-image">
+            <div class="image">
+              <img src="./src/photos/3.png" alt="Avatar" />
+            </div>
+          </div>
+
+          <div class="scroll-icon-btn">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+
+        <!-- --------------- ABOUT BOX ---------------- -->
+
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My Introduction</h3>
+                <p>
+                  I'm Ashutosh Sabale, a recent graduate in Electronics. I bring proficiency in C/C++, HTML, CSS, and JavaScript, with hands-on experience in web development technologies like React.JS, NodeJS and ExpressJs. Eager to contribute and learn in a dynamic environment.
+                </p>
+                <div class="about-btn">
+                  <a href="./src/resume/Ashutosh's Resume.pdf" download>
+                    <button class="btn">
+                      Download CV <i class="uil uil-import"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="skills">
+              <div class="skills-box">
+                <div class="skills-header">
+                    <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>bootstrap</span>
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>Tailwind CSS</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                    <h3>Backend</h3>
+                </div>
+
+                <div class="skills-list">
+                  <span>C++</span>
+                  <span>NodeJS</span>
+                  <span>ExpressJS</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                    <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <span>MySQL</span>
+                  <span>MongoDB</span>
+                  <span>DBMS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- --------------- PROJECTS  BOX---------------- -->
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Completed</h3>
+                    <label>7+ Finished Projects</label>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-newspaper"></i>
+                    <h3>Publication</h3>
+                    <label>1 IIJITEE Publication</label>
+                    <a href="https://www.ijitee.org/portfolio-item/c97600211322/" target="_blank" style="text-decoration: none; font-size: 14px;"><i class="uil uil-external-link-alt"></i></a>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>Fresher</h3>
+                    <label>Skilled fresher</label>
+                </div>
+            </div>
+
+
+            <div class="all-projects-container">
+              <h1>List of Projects >></h1>
+              <div class="project-row">
+
+                <div class="project-card">
+                  <div class="project-box-img">
+                    <img src="./src/photos/blogs.jpg" alt="preview Image">
+                  </div>
+                  <h4>Blog website</h4>
+                  <p style="font-size: 12px;">A user-friendly blog web app designed for effortless content creation and sharing.</p>
+                  <div class="project-card-buttons">
+                    <a href="https://blog-website-three-mu.vercel.app/" target="_blank"><button class="btn">Preview</button></a>
+                    <a href="https://github.com/ashutoshsabale/Blog-Website" target="_blank"><button class="btn">Source code</button></a>
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <div class="project-box-img">
+                    <img src="./src/photos/Personal portfolio.png" alt="preview Image">
+                  </div>
+                  <h4>Personal Portfolio</h4>
+                  <p style="font-size: 12px;">Creating innovative digital experiences in my portfolio showcase.</p>
+                  <div class="project-card-buttons">
+                    <button class="btn">Preview</button>
+                    <button class="btn">Source code</button>
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <div class="project-box-img">
+                    <img src="./src/photos/Currency-converter.png" alt="preview Image">
+                  </div>
+                  <h4>Currency converter</h4>
+                  <p style="font-size: 12px;">Effortlessly convert currencies with our user-friendly online tool.</p>
+                  <div class="project-card-buttons">
+                    <a href="https://currency-converter-bolo.vercel.app/" target="_blank"><button class="btn">Preview</button></a>
+                    <a href="https://github.com/ashutoshsabale/Currency-Converter" target="_blank"><button class="btn">Source code</button></a>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <div class="project-box-img">
+                    <img src="./src/photos/3.png" alt="preview Image">
+                  </div>
+                  <h4>Online Food Delivery System</h4>
+                  <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, saepe.</p>
+                  <div class="project-card-buttons">
+                    <button class="btn">Preview</button>
+                    <button class="btn">Source code</button>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+        </section>
+
+        <!-- --------------- CONTACT BOX  ---------------- -->
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Get In Touch</h1>
+                <span>Do you have any project in your mind?, Contact me here</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i> Email: ashutoshsabale191@gmail.com</p>
+                        <p><i class="uil uil-phone"></i> Mob: +91 917 293 4147</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-controls">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="form-controls" >
+                          <div class="form-inputs">
+                            <input type="hidden" name="access_key" value="0f361d4a-67c4-400a-8658-cb965eccb19d">
+                            <input type="text" name="text" required class="input-fields" placeholder="Name">
+                            <input type="email" name="email" required class="input-fields"     placeholder="Email">
+                          </div>
+                          <div class="text-area">
+                            <textarea placeholder="Message" required name="message"></textarea>
+                          </div>
+                          <div class="form-btn">
+                            <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER SECTION  ---------------- -->
+      <div class="footer">
+        <div class="top-footer">
+          <p>Ashutosh Sabale</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+              <li class="footer-menu-list">
+                <a href="#home">Home</a>
+              </li>
+              <li class="footer-menu-list">
+                <a href="#about">About</a>
+              </li>
+              <li class="footer-menu-list">
+                <a href="#projects">Projects</a>
+              </li>
+              <li class="footer-menu-list">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+        </div>
+        <div class="social-icon-footer">
+          <div class="social_icons">
+            <a href="https://www.instagram.com/aashutoshsabale/" target="_blank"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+            <a href="https://www.linkedin.com/in/ashutosh-sabale-744981166/" target="_blank"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+            <a href="https://www.facebook.com/ashutosh.sable.9/" target="_blank"><div class="icon"><i class="uil uil-facebook"></i></div></a>
+            <a href="https://github.com/ashutoshsabale" target="_blank"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Ashutosh Sabale</a> - All rights reserved</p>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------- Typing Js link------------------------ -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--------------------- Scroll Reveal Js------------------------ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--------------------- Main JS------------------------ -->
+    <script src="./main.js"></script>
+
+    <!---------------------SMTP JS------------------------ -->
+    <!-- sending mail from JavaScript -->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+  </body>
+</html>
