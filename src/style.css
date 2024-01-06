@@ -550,7 +550,7 @@ h3{
     row-gap: 30px;
 
 }
-
+/* //////////////////////////////////////////////////////////////// */
 .project-card{
     display: flex;
     flex-direction: column;
@@ -871,6 +871,17 @@ textarea{
         width: 80%;
     }
 
+    .project-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-card{
+        width: 80%;
+        padding-inline: 20px;
+        padding-top: 20px;
+    }
 }
 
 /* -------------MEDIA QUERY == 540px / RESPONSIVE-------------- */
@@ -909,6 +920,18 @@ textarea{
         width: 100%;
     }
     .text-area{
+        width: 100%;
+    }
+
+    .project-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-card{
+        padding-inline: 20px;
+        padding-top: 20px;
         width: 100%;
     }
 
